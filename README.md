@@ -11,3 +11,14 @@ age = "twenty eight";
 
  Operator precedence table link
  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+
+ var x,y;
+ x = y = 123; //right to left
+ console.log(x,y);
+
+ operator works left to right but assignment works right to left
+  x += 10;
+  x++ shortest way to add 1
+
+falsy values: undefined , null , 0 , '' , NaN
+truthy values: Not falsy values
