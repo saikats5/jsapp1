@@ -22,3 +22,8 @@ age = "twenty eight";
 
 falsy values: undefined , null , 0 , '' , NaN
 truthy values: Not falsy values
+
+statement doesn't produce result whereas expression produce result
+
+if(true){} //undefined //statement
+abc(); //expression
